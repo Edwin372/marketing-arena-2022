@@ -1677,6 +1677,11 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
+use-lax@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/use-lax/-/use-lax-4.0.4.tgz#e7305f3118f3aa8d1624fe8120448dbed80040dc"
+  integrity sha512-gIv9Z9ok7KgxmZxBHdgO8cVN3Ozmx0D4kykFyQrABAdjtz93rkRus0R+DjEoEZhUM7moXPrF2Qi0vx2VMuUipw==
+
 v8-compile-cache@^2.0.3:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"

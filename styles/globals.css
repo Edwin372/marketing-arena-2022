@@ -174,10 +174,9 @@ span {
  z-index: 2;
 }
 .plane{
-  right: 0px !important;
   z-index: 3;
   top: 374px;
-  right: -100px !important;
+  right: -300px !important;
 }
 .title{
  z-index: 3;
@@ -228,8 +227,8 @@ span {
 }
 
 .about-title {
-  left: 550px;
-  top: 167px;
+  /*left: 550px;*/
+  top: 130px;
 }
 
 .cloud4 {
