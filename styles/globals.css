@@ -141,6 +141,9 @@ span {
 
 .session {
   position: relative!important;
+  max-width: 1860px;
+  overflow-x: hidden !important;
+  height: auto;
 }
 
 #landing {
@@ -149,7 +152,14 @@ span {
 }
 
 #about {
-  height: 1024px;
+  position: relative !important;
+  padding-top: 132px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  overflow: hidden;
+  height: 1250px;
 }
 
 .floating-image {
@@ -184,15 +194,6 @@ span {
   top: 45.27px;
 }
 
-#about {
-  position: relative !important;
-  padding-top: 132px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
 
 .about-content-container {
   display: flex;
@@ -233,7 +234,8 @@ span {
 
 .cloud4 {
   z-index: 5;
-  bottom: -150px;
   object-fit: cover;
   width: 100% !important;
+  bottom: 150px !important;
+
 }
