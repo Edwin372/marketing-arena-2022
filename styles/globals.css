@@ -151,15 +151,46 @@ span {
   height: 1024px;
 }
 
-#about {
+#notes {
   position: relative !important;
-  padding-top: 132px;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   overflow: hidden;
-  height: 1250px;
+  height: 1024px;
+}
+
+#register{
+  position: relative !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 1024px;
+}
+
+
+#rules{
+  position: relative !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 1024px;
+}
+
+
+#about {
+  position: relative !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  height: 1100px;
 }
 
 .floating-image {
@@ -236,6 +267,47 @@ span {
   z-index: 5;
   object-fit: cover;
   width: 100% !important;
-  bottom: 150px !important;
+  bottom: 0px !important;
+
+}
+
+.circle1 {
+  right: 75px;
+  bottom: 41px
+}
+
+.circle2 {
+  transform-origin: 50% 50%;
+  left: -141px;
+  top: 0px;
+}
+.circle3 {
+  right: -30px;
+  top: 369px;
+}
+.dot {
+  right: -20px;
+  top: 339px;
+}
+.plane-engine {
+  right: 95px;
+  bottom: 0px;
+  z-index: 11;
+}
+
+.note-content {
+  width: 50%;
+  height: 675px;
+  z-index: 10;
+
+}
+
+.note-board {
+  width: 100%;
+  object-fit: cover;
+}
+.cross {
+  bottom: -100px;
+  left: 100px
 
 }

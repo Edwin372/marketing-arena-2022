@@ -37,10 +37,10 @@ export default function Home() {
       <NavBar/>
       <Landing/>
         <About/>
+        <Rules/>
         <Notes/>
 
         <Register/>
-        <Rules/>
     </div>
   )
 }
