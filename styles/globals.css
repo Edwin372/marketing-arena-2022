@@ -143,7 +143,13 @@ span {
   position: relative!important;
   max-width: 1860px;
   overflow-x: hidden !important;
-  height: auto;
+  height: 1024px;
+  position: relative !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 #landing {
@@ -152,13 +158,7 @@ span {
 }
 
 #notes {
-  position: relative !important;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  height: 1024px;
+
 }
 
 #register{
@@ -168,18 +168,18 @@ span {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  height: 1024px;
+  height: 1024px !important;
 }
 
 
-#rules{
+#rules {
   position: relative !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  height: 1024px;
+  height: 1224px;
 }
 
 
@@ -308,6 +308,39 @@ span {
 }
 .cross {
   bottom: -100px;
-  left: 100px
 
+  left: 100px
+}
+
+.cloud-background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.rule-board {
+  z-index: 2;
+}
+
+.cloud8 {
+  z-index: 10;
+  bottom: 0px;
+}
+.cloud9 {
+  z-index: 10;
+  left: 114px;
+  top: 98px;
+}
+
+.cloud10 {
+  z-index: 10;
+  right: 116px;
+  top: 145px;
+}
+
+.pilot {
+  z-index: 11;
+  height: 35%;
+  width: 65%;
 }

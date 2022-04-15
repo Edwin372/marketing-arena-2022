@@ -53,7 +53,7 @@ class Notes extends Component {
                         layout={'raw'}
                     />
                 </div>
-                <div className={`floating-image cross lax lax_preset_spin:3000:215 lax_preset_zigzag:170:222`}>
+                <div className={`floating-image cross lax lax_preset_spin:3000:215 lax_preset_zigzag:170:200`}>
                     <Image
                         src={cross}
                         layout={'raw'}
