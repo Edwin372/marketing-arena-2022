@@ -63,11 +63,7 @@ class Award extends Component {
                         src={circle6}
                         layout={'raw'}
                     />
-                    <Image
-                        className={'floating-image circle7'}
-                        src={circle7}
-                        layout={'raw'}
-                    />
+
                 </div>
 
                 <div
@@ -82,6 +78,11 @@ class Award extends Component {
                     <Image
                         className={'runner-up-award'}
                         src={runnerUpAward}
+                        layout={'raw'}
+                    />
+                    <Image
+                        className={'floating-image circle7'}
+                        src={circle7}
                         layout={'raw'}
                     />
                     <Image

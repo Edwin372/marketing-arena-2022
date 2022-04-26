@@ -396,26 +396,32 @@ span {
 }
 
 .champion {
+  z-index: 10;
   width: 59%;
 }
 
 .champion-award {
+  z-index: 10;
   width: 59%;
 }
 
 .true-runner-up {
+  z-index: 10;
   width: 59%;
 }
 
 .true-runner-up-award {
+  z-index: 10;
   width: 59%;
 }
 
 .runner-up {
+  z-index: 10;
   width: 59%;
 }
 
 .runner-up-award {
+  z-index: 10;
   width: 59%;
 }
 
@@ -426,4 +432,46 @@ span {
 
 #first {
   margin-top: 75px !important
+}
+
+.circle4 {
+  z-index: 9;
+  width: 176px;
+  bottom: -94px;
+  left: 188px;
+  object-fit: contain;
+
+}
+
+.circle5 {
+  z-index: 9;
+  width: 634px;
+  height: 593px;
+  right: -42px;
+  bottom: 0px;
+  object-fit: contain;
+}
+
+.circle6 {
+  z-index: 9;
+  width: 40%;
+  left: 0px;
+  object-fit: contain;
+
+}
+
+.circle7 {
+  z-index: 9;
+  width: 40%;
+  right: 0px;
+  bottom: -100px;
+  object-fit: contain;
+}
+
+.circle8 {
+  z-index: 9;
+  width: 60%;
+  bottom: -700px;
+  left: 0px;
+  object-fit: contain;
 }
