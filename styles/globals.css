@@ -152,6 +152,17 @@ span {
   overflow: hidden;
 }
 
+.sub-session {
+  margin-top: 230px;
+  position: relative;
+  height: 871px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #landing {
   padding-top: 132px;
   height: 1024px;
@@ -176,11 +187,30 @@ span {
   position: relative !important;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 3237px;
+}
+
+#award {
+  position: relative !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 3957px;
+}
+
+#rules-board {
+  width: 100%;
+  position: relative !important;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  height: 1224px;
+  height: 1701px;
 }
+
 
 
 #about {
@@ -315,12 +345,14 @@ span {
 .cloud-background {
   width: 100%;
   height: 100%;
+  z-index: 0;
   position: absolute;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .rule-board {
-  z-index: 2;
+
+  z-index: 10;
 }
 
 .cloud8 {
@@ -343,4 +375,55 @@ span {
   z-index: 11;
   height: 35%;
   width: 65%;
+}
+
+.cloud11 {
+  z-index: 100;
+  top: -50px;
+  left: 0px
+}
+
+.cloud12 {
+  z-index: 100;
+  bottom: -30px;
+  left: 0px;
+}
+
+.rule-session {
+  z-index: 8;
+  width: 100%;
+  object-fit: contain !important;
+}
+
+.champion {
+  width: 59%;
+}
+
+.champion-award {
+  width: 59%;
+}
+
+.true-runner-up {
+  width: 59%;
+}
+
+.true-runner-up-award {
+  width: 59%;
+}
+
+.runner-up {
+  width: 59%;
+}
+
+.runner-up-award {
+  width: 59%;
+}
+
+.award-title {
+  object-fit: contain;
+  width: 42%;
+}
+
+#first {
+  margin-top: 75px !important
 }
