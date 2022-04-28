@@ -71,8 +71,6 @@ class Rules extends Component {
                             height={269}
                         />
                     </div>
-
-
                 </div>
                 <Image
                     priority={true}

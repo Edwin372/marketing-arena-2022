@@ -11,9 +11,9 @@ import Rules from "../components/rules";
 import Notes from "../components/notes";
 import Award from "../components/award";
 import Round from "../components/round";
-import Structure from "../components/structure";
 import Event from "../components/event";
 import Partner from "../components/partners/partner";
+import Footer from "../components/footer";
 export default function Home() {
     useEffect(() => {
         // Setup lax
@@ -43,13 +43,13 @@ export default function Home() {
         <Landing/>
         <About/>
         <Round/>
-        <Structure/>
         <Award/>
         <Notes/>
         <Rules/>
         <Register/>
         <Event/>
         <Partner/>
+        <Footer/>
     </div>
   )
 }
