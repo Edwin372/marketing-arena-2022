@@ -698,3 +698,29 @@ span {
   width: 100%;
   object-fit: contain;
 }
+.event-session {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.text-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+
+}
+
+.text-size {
+  width: 591px;
+  height: 236px;
+  text-align: justify;
+}
+
+
