@@ -183,7 +183,7 @@ span {
   overflow: hidden;
   width: 100%;
   margin-top: 100px;
-  height: 4186px!important;
+  height: 4586px!important;
 }
 
 
@@ -191,7 +191,7 @@ span {
   position: relative !important;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   overflow: hidden;
   height: 1024px !important;
@@ -238,6 +238,15 @@ span {
   height: 1100px;
 }
 
+#session  {
+  position: relative !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  height: 1100px;
+}
 .floating-image {
   position: absolute !important;
 }
@@ -423,6 +432,7 @@ span {
 .champion {
   z-index: 10;
   width: 59%;
+  margin-top: 30px;
 }
 
 .champion-award {
@@ -433,6 +443,7 @@ span {
 .true-runner-up {
   z-index: 10;
   width: 59%;
+  margin-top: 30px;
 }
 
 .true-runner-up-award {
@@ -443,6 +454,7 @@ span {
 .runner-up {
   z-index: 10;
   width: 59%;
+  margin-top: 30px;
 }
 
 .runner-up-award {
@@ -610,6 +622,74 @@ span {
   object-fit: contain;
 }
 
+#register-title {
+  z-index: 10;
+  position: relative;
+  object-fit: contain;
+  width: 49%;
+}
+#register-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.register-cloud {
+  width: 100%;
+  object-fit: contain;
+  top: 0px;
+  left:0px;
+  position: relative;
+}
+
+.register-link {
+  z-index: 11;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.register-image {
+  width: 50%;
+  object-fit: contain;
+}
+
+.counter {
+  margin-top: -180px;
+  display: flex;
+  flex-direction: row;
+}
+
+.time-value {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.time-container {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 600px !important;
+}
+
+#footer-content {
+  width: 100%;
+  object-fit: contain;
+}
 .event-session {
   position: relative;
   display: flex;
