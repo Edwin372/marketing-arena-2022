@@ -65,7 +65,6 @@ class Award extends Component {
                     />
 
                 </div>
-
                 <div
                     id={'third'}
                     className={'sub-session'}

@@ -5,7 +5,6 @@ import Image from 'next/image'
 import cloud8 from '../../public/svg/cloud8.svg'
 import cloud9 from '../../public/svg/cloud9.svg'
 import cloud10 from '../../public/svg/cloud10.svg'
-import pilot from '../../public/images/pilot.png'
 import cloud11 from '../../public/images/cloud11.png'
 import rulesSession from '../../public/images/rulesession.png'
 
@@ -36,10 +35,8 @@ class Rules extends Component {
                         layout={'raw'}
                     />
                     <Image
-                        className={`floating-image rule-board`}
+                        className={`rule-board`}
                         src={ruleBoard}
-                        width={1074}
-                        height={777}
                         priority={true}
                         quality={100}
                         layout={"raw"}
@@ -74,14 +71,7 @@ class Rules extends Component {
                             height={269}
                         />
                     </div>
-                    <div className={'pilot'} >
-                        <Image
-                            src={pilot}
-                            layout={"raw"}
-                            width={1519}
-                            height={853}
-                        />
-                    </div>
+
 
                 </div>
                 <Image

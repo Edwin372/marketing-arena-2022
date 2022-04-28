@@ -4,6 +4,7 @@ import Helmet from '../../public/images/helmet.png'
 import Picture from '../../public/svg/picture.svg'
 import AboutTitle from '../../public/svg/about.svg'
 import Cloud4 from '../../public/images/cloud4.png'
+import year from "../../public/images/year.png";
 class About extends Component {
     state = {  }
     render() {
@@ -42,6 +43,11 @@ class About extends Component {
                         layout={'raw'}
                     />
                 </div>
+                <Image
+                    className={'floating-image year'}
+                    src={year}
+                    layout={'raw'}
+                />
             </div>
             </>
 
