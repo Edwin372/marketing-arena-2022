@@ -433,36 +433,44 @@ span {
   z-index: 10;
   width: 59%;
   margin-top: 30px;
+  object-fit: contain;
+
 }
 
 .champion-award {
   z-index: 10;
   width: 59%;
+  object-fit: contain;
 }
 
 .true-runner-up {
   z-index: 10;
-  width: 59%;
+  width: 55%;
   margin-top: 30px;
+  object-fit: contain;
 }
 
 .true-runner-up-award {
   z-index: 10;
-  width: 59%;
+  width: 55%;
+  object-fit: contain;
 }
 
 .runner-up {
   z-index: 10;
-  width: 59%;
+  width: 55%;
+  object-fit: contain;
   margin-top: 30px;
 }
 
 .runner-up-award {
   z-index: 10;
-  width: 59%;
+  width: 55%;
+  object-fit: contain;
 }
 
 .award-title {
+  object-fit: contain;
   object-fit: contain;
   width: 42%;
 }
