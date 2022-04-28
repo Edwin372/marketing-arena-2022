@@ -9,10 +9,9 @@ const Counter = dynamic(
     () => import('./Counter.js'),
     { ssr: false }
 )
-const targetTime = new Date("2035-01-01").getTime();
 class Register extends Component {
     state = {
-        targetTime: new Date("2035-01-01").getTime()
+        targetTime: new Date("May 13 2022 09:00:00 GMT+0700 (Indochina Time)").getTime()
     }
     render() { 
         return (
@@ -31,18 +30,7 @@ class Register extends Component {
                     <div id={'register-container'}>
                         <div className={'register-link'}>
                             <Image
-                                onClick={(e) => {location.href = 'https://www.javascripttutorial.net/';}}
-                                id={'individual-register'}
-                                src={individualRegister}
-                                className={'register-image'}
-                                layout={'raw'}
-                            />
-                            <Counter targetTime={this.state.targetTime}/>
-                        </div>
-                        <div className={'register-link'}>
-                            <Image
-                                onClick={(e) => {location.href = 'https://www.javascripttutorial.net/';}}
-                                id={'individual-register'}
+                                onClick={(e) => {location.href = 'https://vlrl8wq6g5f.typeform.com/MA22-DANG-KI';}}
                                 src={groupRegister}
                                 layout={'raw'}
                                 className={'register-image'}

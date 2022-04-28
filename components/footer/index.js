@@ -6,7 +6,7 @@ class Footer extends Component {
     render() {
         return (
             <div id="footer" className="session">
-                <Image priority={true} id={'footer-content'} src={footer}/>
+                <Image priority={true} id={'footer-content'} src={footer} layout={'raw'}/>
             </div>
 
         );
