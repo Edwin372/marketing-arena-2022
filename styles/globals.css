@@ -1,7 +1,7 @@
 html,
 body {
   overflow-x: hidden;
-  max-width: 1860px;
+  /*max-width: 1860px;*/
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -143,7 +143,7 @@ span {
 
 .session {
   position: relative!important;
-  max-width: 1860px;
+  /*max-width: 1860px;*/
   overflow-x: hidden !important;
   height: 1024px;
   position: relative !important;
@@ -423,6 +423,7 @@ span {
 .champion {
   z-index: 10;
   width: 59%;
+  margin-top: 30px;
 }
 
 .champion-award {
@@ -433,6 +434,7 @@ span {
 .true-runner-up {
   z-index: 10;
   width: 59%;
+  margin-top: 30px;
 }
 
 .true-runner-up-award {
@@ -443,6 +445,7 @@ span {
 .runner-up {
   z-index: 10;
   width: 59%;
+  margin-top: 30px;
 }
 
 .runner-up-award {
