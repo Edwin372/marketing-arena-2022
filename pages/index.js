@@ -16,14 +16,20 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 export default function Home() {
     const [loading, setLoading] = useState(true);
-
     useEffect(() => {
-        setLoading(false);
+        setTimeout(() => {
+            setLoading(false);
+        }, 5000);
+    }, []);
+    useEffect(() => {
         AOS.init();
         AOS.refresh();
     }, []);
 
+
+
     return (
+
     <div className={styles.container}>
         {loading
             ?  <Loading/>
