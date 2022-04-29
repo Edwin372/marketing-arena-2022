@@ -897,6 +897,9 @@ span {
   z-index: 2000;
 }
 
-#loader-icon {
+.loader-icon {
   object-fit: contain;
+}
+.loader-logo{
+  object-fit: fill;
 }
