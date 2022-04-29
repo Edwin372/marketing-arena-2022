@@ -24,6 +24,7 @@ class Round extends Component {
             <div id="round" className="session">
 
                 <Image
+                    priority={true}
                     data-aos-duration="1000" data-aos='fade-up'
                     className={'round-title'}
                     src={roundTitle}
@@ -36,7 +37,7 @@ class Round extends Component {
                     chính đa dạng và thách thức.
                 </p>
                 <div className={'round-structure'}>
-                    <Image src={roundLine} layout={'raw'}  id={'line'}/>
+                    <Image priority={true}  src={roundLine} layout={'raw'}  id={'line'}/>
                     <Image src={background} layout={'raw'} id={'background'}  className={'floating-image'}/>
                     <Image  priority={true} src={marketingArenaLogo} layout={'raw'} id={`logo`} className={'round-item'}/>
 
