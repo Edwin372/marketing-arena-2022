@@ -14,30 +14,17 @@ import Round from "../components/round";
 import Event from "../components/event";
 import Partner from "../components/partners/partner";
 import Footer from "../components/footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function Home() {
     useEffect(() => {
-        // Setup lax
-        lax.init();
-
-        lax.addDriver("scrollY", function () {
-            return window.scrollY;
-        });
-
-        // Add your elements
-        lax.addElements(
-            ".fly-left",
-            {
-                scrollY: {
-                    translateX: [
-                        ["elInY", "elCenterY", "elOutY"],
-                        [0, 'screenWidth/2', 'screenWidth'],
-                    ]
-                }
-            },
-            []
-        );
+        AOS.init();
+        AOS.refresh();
     }, []);
-  return (
+
+
+
+    return (
     <div className={styles.container}>
         <NavBar/>
         <Landing/>

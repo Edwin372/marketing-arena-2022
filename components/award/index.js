@@ -18,27 +18,33 @@ class Award extends Component {
     render() {
         return (
             <div id="award" className="session">
-                <Image className={'award-title'} src={awardTitle} layout={'raw'}/>
+                <Image
+                    data-aos-duration="1000" data-aos='fade-up'
+                    className={'award-title'} src={awardTitle} layout={'raw'}/>
                 <div
                     id={'first'}
                     className={'sub-session'}
                 >
                     <Image
+                        data-aos-duration="1000" data-aos='fade-up'
                         className={'champion'}
                         src={champion}
                         layout={'raw'}
                     />
                     <Image
+                        data-aos-duration="1000" data-aos='fade-up'
                         className={'champion-award'}
                         src={championAward}
                         layout={'raw'}
                     />
                     <Image
+                        data-aos-duration="1000" data-aos='fade-left'
                         className={'floating-image circle4'}
                         src={circle4}
                         layout={'raw'}
                     />
                     <Image
+                        data-aos-duration="1000" data-aos='fade-right'
                         className={'floating-image circle5'}
                         src={circle5}
                         layout={'raw'}
@@ -49,16 +55,19 @@ class Award extends Component {
                     className={'sub-session'}
                 >
                     <Image
+                        data-aos-duration="1000" data-aos='fade-up'
                         className={'true-runner-up'}
                         src={trueRunnerUp}
                         layout={'raw'}
                     />
                     <Image
+                        data-aos-duration="1000" data-aos='fade-up'
                         className={'true-runner-up-award'}
                         src={trueRunnerUpAward}
                         layout={'raw'}
                     />
                     <Image
+                        data-aos='fade-down'
                         className={'floating-image circle6'}
                         src={circle6}
                         layout={'raw'}
@@ -70,21 +79,25 @@ class Award extends Component {
                     className={'sub-session'}
                 >
                     <Image
+                        data-aos-duration="1000" data-aos='fade-up'
                         className={'runner-up'}
                         src={runnerUp}
                         layout={'raw'}
                     />
                     <Image
+                        data-aos-duration="1000" data-aos='fade-up'
                         className={'runner-up-award'}
                         src={runnerUpAward}
                         layout={'raw'}
                     />
                     <Image
+                        data-aos-duration="1000" data-aos='fade-right'
                         className={'floating-image circle7'}
                         src={circle7}
                         layout={'raw'}
                     />
                     <Image
+                        data-aos-duration="1000" data-aos='fade-left'
                         className={'floating-image circle8'}
                         src={circle8}
                         layout={'raw'}

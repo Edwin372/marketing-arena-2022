@@ -16,13 +16,13 @@ class NavBar extends Component {
                         <IconButton iconPath={Logo} width={93} height={79}/>
                     </div>
                     <ul className="nav justify-content-end m-5">
-                        <HeaderButton text="TRANG CHỦ"/>
-                        <HeaderButton text="VỀ CHÚNG TÔI"/>
+                        <HeaderButton section={'landing'} text="TRANG CHỦ"/>
+                        <HeaderButton section={'about'} text="VỀ CHÚNG TÔI"/>
                         <DropDownButton text="MARKETING ARENA 2022"/>
-                        <HeaderButton text="ĐĂNG KÝ"/>
-                        <HeaderButton text="SỰ KIỆN"/>
-                        <HeaderButton text="ĐỐI TÁC"/>
-                        <HeaderButton text="LIÊN HỆ"/>
+                        <HeaderButton section={'register'} text="ĐĂNG KÝ"/>
+                        <HeaderButton  section={'event'}text="SỰ KIỆN"/>
+                        <HeaderButton  section={'partner'}text="ĐỐI TÁC"/>
+                        <HeaderButton section={'footer'} text="LIÊN HỆ"/>
                     </ul>
                 </div>
             </header>

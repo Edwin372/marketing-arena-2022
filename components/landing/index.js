@@ -55,6 +55,8 @@ function Landing() {
                     />
                 </div>
                 <Image
+                    data-aos-duration="1000" data-aos='fade-up'
+                    data-aos={'fade-up'}
                     className={`floating-image title`}
                     src={title}
                     width={818.93}
@@ -64,7 +66,6 @@ function Landing() {
                 />
 
             </div>
-
         );
 }
 

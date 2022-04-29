@@ -12,7 +12,7 @@ class Notes extends Component {
     render() {
         return (
             <div id="notes" className="session">
-                <div className={`floating-image circle1 lax lax_preset_zigzag:220:63`}>
+                <div data-aos={'fade-up'} className={`floating-image circle1`}>
                     <Image
                         src={circle1}
                         width={387}
@@ -20,7 +20,7 @@ class Notes extends Component {
                         layout={'raw'}
                     />
                 </div>
-                <div className={`floating-image circle2 lax lax_preset_flipX:1000:500`}>
+                <div data-aos={'fade-right'} className={`floating-image circle2 `}>
                     <Image
                         src={circle2}
                         width={520}
@@ -62,7 +62,7 @@ class Notes extends Component {
                         quality={100}
                     />
                 </div>
-                <div className={'note-content'}>
+                <div data-aos={'fade-up'} className={'note-content'}>
                     <Image
                         className={'note-board'}
                         src={noteBoard}

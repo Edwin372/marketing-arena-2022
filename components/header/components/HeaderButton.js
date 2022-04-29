@@ -1,7 +1,7 @@
 import React  from 'react'
-export function HeaderButton({text}) {
+export function HeaderButton({text, section}) {
         return (
-            <button type="button" className='btn btn-outline-warning header-btn'>{text}</button>
+            <a href={`#${section}`} type="button" className='btn btn-outline-warning header-btn'>{text}</a>
         )
 }
 

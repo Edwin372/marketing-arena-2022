@@ -17,20 +17,25 @@ class Register extends Component {
         return (
             <div id="register" className="session">
                 <Image
+                    data-aos={'zoom-in'}
                     id={'register-title'}
                     src={registerTitle}
                     layout={'raw'}
                 />
                 <div>
                     <Image
+                        data-aos-duration="1000" data-aos={"fade-left"}
                         className={'floating-image register-cloud'}
                         src={registerCloud}
                         layout={'raw'}
                     />
-                    <div id={'register-container'}>
+                    <div  data-aos-duration="1500" data-aos={"fade-up"} id={'register-container'}>
                         <div className={'register-link'}>
                             <Image
+                                width={383}
+                                height={383}
                                 onClick={(e) => {location.href = 'https://vlrl8wq6g5f.typeform.com/MA22-DANG-KI';}}
+                                id={'group-register'}
                                 src={groupRegister}
                                 layout={'raw'}
                                 className={'register-image'}
@@ -40,7 +45,6 @@ class Register extends Component {
                     </div>
                 </div>
             </div>
-
         );
     }
 }

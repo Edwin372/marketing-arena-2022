@@ -6,7 +6,10 @@ import cloud8 from '../../public/svg/cloud8.svg'
 import cloud9 from '../../public/svg/cloud9.svg'
 import cloud10 from '../../public/svg/cloud10.svg'
 import cloud11 from '../../public/images/cloud11.png'
-import rulesSession from '../../public/images/rulesession.png'
+import BTCElement from '../../public/images/BTCElement.png'
+import BTCRule from '../../public/images/BTCRule.png'
+import candidateRule from '../../public/images/candidateRule.png'
+import candidateElement from '../../public/images/candidateElement.png'
 
 class Rules extends Component {
     state = {  }
@@ -35,6 +38,8 @@ class Rules extends Component {
                         layout={'raw'}
                     />
                     <Image
+                        data-aos-duration="2000"
+                        data-aos="fade-up"
                         className={`rule-board`}
                         src={ruleBoard}
                         priority={true}
@@ -72,15 +77,26 @@ class Rules extends Component {
                         />
                     </div>
                 </div>
-                <Image
-                    priority={true}
-                    quality={100}
-                    height={1461}
-                    src={rulesSession}
-                    className={'rule-session'}
-                    layout={'raw'}
-                />
-
+               <div className={'rule-session'} id={'BTC-session'}>
+                   <Image data-aos-duration="1000"
+                          data-aos="fade-up"
+                          priority={true} quality={100} id='BTC-rule' height={788} src={BTCRule} layout={'raw'}/>
+                   <Image
+                       data-aos-duration="1000"
+                       data-aos="fade-left"
+                       id={'BTC-element'}
+                       height={788} src={BTCElement} layout={'raw'}/>
+               </div>
+               <div className={'rule-session'} >
+                   <Image
+                       data-aos-duration="1000"
+                       data-aos="fade-right"
+                       priority={true} quality={100} id={'candidate-element'}  height={788}  src={candidateElement} layout={'raw'}/>
+                   <Image
+                       data-aos-duration="1000"
+                       data-aos="fade-up"
+                       id={'candidate-rule'} height={788}  src={candidateRule} layout={'raw'}/>
+               </div>
             </div>
 
         );

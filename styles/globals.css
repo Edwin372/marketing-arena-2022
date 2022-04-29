@@ -314,7 +314,8 @@ span {
 
 .about-title {
   /*left: 550px;*/
-  top: 130px;
+  width: 30%;
+  object-fit: contain;
 }
 
 .year {
@@ -366,9 +367,9 @@ span {
   object-fit: cover;
 }
 .cross {
-  bottom: -100px;
+  bottom: 20px;
 
-  left: 100px
+  left: 200px
 }
 
 .cloud-background {
@@ -383,7 +384,7 @@ span {
   object-fit: contain;
   width: 83%;
   z-index: 10;
-  padding-top: 389px;
+  padding-top: 161px;
   padding-left: 198px;
 }
 
@@ -419,14 +420,19 @@ span {
 
 .cloud12 {
   z-index: 100;
-  bottom: -30px;
+  bottom: -50px;
   left: 0px;
 }
 
 .rule-session {
-  z-index: 8;
+  z-index: 4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-height: 1050px;
+  overflow: hidden;
   width: 100%;
-  object-fit: contain !important;
 }
 
 .champion {
@@ -635,6 +641,7 @@ span {
   position: relative;
   object-fit: contain;
   width: 30%;
+  margin-bottom: 80px;
 }
 #register-container {
   width: 100%;
@@ -663,12 +670,11 @@ span {
 }
 
 .register-image {
-  width: 55%;
-  object-fit: contain;
+  object-fit: fill;
 }
 
 .counter {
-  margin-top: -180px;
+  /*margin-top: -180px;*/
   display: flex;
   flex-direction: row;
 }
@@ -680,7 +686,8 @@ span {
 }
 
 .time-container {
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -689,23 +696,23 @@ span {
 
 #footer {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  height: 950px !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 700px !important;
 }
 
 #footer-content {
   position: absolute;
-  left: 0px;
-  width: 100%;
-  bottom: -157px;
-  object-fit: contain;
+  bottom: 0px;
+  width: 1680px;
+  object-fit: cover;
 }
 .event-session {
   position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   width: 100%;
 }
@@ -782,7 +789,7 @@ span {
   position: relative;
   display: flex;
   justify-content: center;
-  height: 1608px;
+  height: 1258px;
 }
 
 #partner-title {
@@ -793,5 +800,88 @@ span {
 
 #partner-content {
   object-fit: contain;
-  width: 70%;
+  width: 60%;
+}
+
+#BTC-rule {
+  padding-left: 100px;
+ object-fit: contain;
+ width: 55%;
+
+}
+#BTC-element{
+  object-fit: contain;
+  width: 45%;
+  margin-right: -50px
+
+}
+#candidate-rule {
+  object-fit: contain;
+  width: 50%;
+  margin-left: -80px;
+}
+#candidate-element{
+  object-fit: contain;
+  width: 50%;
+}
+
+#BTC-session {
+  justify-content: space-between;
+}
+
+.event-title {
+  object-fit: contain;
+  width: 30%;
+  margin-bottom: 50px;
+}
+
+#black-background {
+  position: absolute;
+  left: -200px;
+  z-index: 0;
+  background: black;
+  transform: rotate(-5deg);
+  width: 500%;
+  height: 100%;
+  bottom: 50px;
+}
+
+#footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 2;
+  padding: 50px;
+  padding-left: 100px;
+}
+
+#footer-pilot {
+  bottom: 0px;
+  right: 0px;
+  z-index: 2;
+  width: 100%;
+  object-fit: scale-down;
+
+}
+
+.footer-p {
+  color: white;
+  font-size: 20px;
+}
+
+.footer-a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer-pilot-wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+.contact-title {
+  object-fit: contain;
+  width: 161px;
+  margin-bottom: -80px;
 }
