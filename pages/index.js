@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/header'
 import lax from 'lax.js'
-import {useEffect} from "react";
+import {useEffect, useState} from "react";
 import Landing from "../components/landing";
 import About from "../components/about";
 import Register from "../components/register";
@@ -14,9 +14,14 @@ import Round from "../components/round";
 import Event from "../components/event";
 import Partner from "../components/partners/partner";
 import Footer from "../components/footer";
+import Loading from "../components/loading"
 import AOS from "aos";
 import "aos/dist/aos.css";
 export default function Home() {
+    const [loading, setLoading] = useState(true);
+    useEffect(() => {
+            setLoading(false);
+    }, []);
     useEffect(() => {
         AOS.init();
         AOS.refresh();
@@ -25,7 +30,12 @@ export default function Home() {
 
 
     return (
+
     <div className={styles.container}>
+        {loading
+            ?  <Loading/>
+            : null
+        }
         <NavBar/>
         <Landing/>
         <About/>
