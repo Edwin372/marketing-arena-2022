@@ -1,8 +1,5 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/header'
-import lax from 'lax.js'
 import {useEffect, useState} from "react";
 import Landing from "../components/landing";
 import About from "../components/about";
@@ -19,20 +16,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 export default function Home() {
     const [loading, setLoading] = useState(true);
+
     useEffect(() => {
-        setTimeout(() => {
-            setLoading(false);
-        }, 5000);
-    }, []);
-    useEffect(() => {
+        setLoading(false);
         AOS.init();
         AOS.refresh();
     }, []);
 
-
-
     return (
-
     <div className={styles.container}>
         {loading
             ?  <Loading/>
