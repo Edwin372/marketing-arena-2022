@@ -18,7 +18,7 @@ class Event extends Component {
                 <div className={'event-session'}>
                     <div className={'text-container'}>
                         <Image data-aos-duration="1000" data-aos={'fade-up'} src={informationDay} className={'information-day'} width={210} height={106} layout={'raw'}/>
-                        <p data-aos-duration="1000" data-aos={'fade-up'} className={'text-size'}>Nhằm giúp những thí sinh nắm được thông tin chi tiết về cuộc thi cũng như hình thức thi trắc nghiệm Creatio sẽ tổ chức một buổi <span>Information Day</span> dưới hình thức online ngay sau khi bài phát động đăng ký tham gia . Với sự góp mặt của các chuyên gia đầu ngành dày dặn kinh nghiệm trong lĩnh vực Marketing, buổi <span>Information Day</span> hứa hẹn sẽ gửi đến các thí sinh những lời khuyên mang tính chuyên môn về cách tiếp cận với <span>ngành Marketing</span> nói chung và <span>ngành hàng của đề bài năm nay</span> nói riêng.
+                        <p data-aos-duration="1000" data-aos={'fade-up'} className={'text-size'} id={'info-text'}>Nhằm giúp những thí sinh nắm được thông tin chi tiết về cuộc thi cũng như hình thức thi trắc nghiệm Creatio sẽ tổ chức một buổi <span>Information Day</span> dưới hình thức online ngay sau khi bài phát động đăng ký tham gia . Với sự góp mặt của các chuyên gia đầu ngành dày dặn kinh nghiệm trong lĩnh vực Marketing, buổi <span>Information Day</span> hứa hẹn sẽ gửi đến các thí sinh những lời khuyên mang tính chuyên môn về cách tiếp cận với <span>ngành Marketing</span> nói chung và <span>ngành hàng của đề bài năm nay</span> nói riêng.
                         </p>
                         <a href={'https://vlrl8wq6g5f.typeform.com/InfoDay-DANG-KI?typeform-source=l.facebook.com '} className={'event-btn'}>Đăng ký tham dự Information Day</a>
                     </div>
@@ -28,7 +28,7 @@ class Event extends Component {
                     <Image data-aos-duration="1000" data-aos={'fade-up'} src={machine} className={'machine'} width={496} height={460} layout={'raw'}/>
                     <div className={'text-container'}>
                         <Image data-aos-duration="1000" data-aos={'fade-down'} src={briefDay} className={'brief-day'} width={210} height={106} layout={'raw'}/>
-                        <p data-aos-duration="1000" data-aos={'fade-right'} className={'text-size'}>Bắt đầu vòng đề xuất kế hoạch truyền thông tích hợp, buổi <span>Brief Day</span> sẽ tạo cho thí sinh cơ hội thấu hiểu hơn về <span>ngành hàng</span> cùng <span>thách thức Marketing</span> của đề bài. Thông qua sự kiện, các đội thi sẽ được trò chuyện trực tiếp cùng các đại diện đến từ doanh nghiệp ra đề và nhận được những kiến thức chuyên môn bổ ích. Đây hứa hẹn sẽ là một trải nghiệm bổ ích, không thể bỏ qua của top 200.
+                        <p data-aos-duration="1000" data-aos={'fade-right'} className={'text-size'} id={"brief-text"}>Bắt đầu vòng đề xuất kế hoạch truyền thông tích hợp, buổi <span>Brief Day</span> sẽ tạo cho thí sinh cơ hội thấu hiểu hơn về <span>ngành hàng</span> cùng <span>thách thức Marketing</span> của đề bài. Thông qua sự kiện, các đội thi sẽ được trò chuyện trực tiếp cùng các đại diện đến từ doanh nghiệp ra đề và nhận được những kiến thức chuyên môn bổ ích. Đây hứa hẹn sẽ là một trải nghiệm bổ ích, không thể bỏ qua của top 200.
                         </p>
                         <a className={'event-btn'}>Đăng ký tham dự Brief Day</a>
                     </div>
@@ -42,8 +42,6 @@ class Event extends Component {
                         luận sắc xảo cùng hàng loạt chất vấn “căng não” đến từ các vị chuyên gia “ cầm cân nẩy mực” cho Đêm
                         Chung kết,... Tất cả đều là những trải nghiệm vô cùng đáng giá cho quá trình học hỏi và phát triển
                         bản thân của các Marketers tương lai.
-
-
                     </p>
                     <a className={'event-btn'}>Đăng ký tham dự Gala Night</a>
                 </div>
