@@ -40,7 +40,9 @@ class About extends Component {
                        id={"about-text"}><span>Sự đột phá </span>(Breakthrough) không chỉ mang ý nghĩa như một thành tựu, một sự thành công hay khám phá ra một giải pháp mới. <span>Sự đột phá </span> còn được miêu tả như sự xuyên qua, vượt khỏi những rào cản giới hạn trong tư tưởng và khả năng. Tựa như con người tự tạo nên đôi cánh của riêng mình, thoát khỏi giới hạn của mặt đất và chinh phục bầu trời, <span className='yellow-span' >MARKETING ARENA 2022 </span> mang đến thông điệp <span >“The Wildest Idea Stuns The World” </span>. Tiếp nối sự thành công của 06 mùa thi trước, <span className='yellow-span' >MARKETING ARENA 2022 </span> chính là cơ hội để các Marketers được thử sức một lần vượt qua giới hạn của bản thân, đột phá vươn đến tầm cao mới.
                     </p>
                 </div>
-                <div className={`lax lax_preset_slideX:976:-500 floating-image cloud4`}>
+                <div  data-aos={"fade-up"}
+                      data-aos-duration="1000"
+                      className={` floating-image cloud4`}>
                     <Image
                         src={Cloud4}
                         layout={'raw'}

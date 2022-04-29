@@ -59,8 +59,6 @@ function Landing() {
                     data-aos={'fade-up'}
                     className={`floating-image title`}
                     src={title}
-                    width={818.93}
-                    height={944.66}
                     priority={true}
                     layout={"raw"}
                 />

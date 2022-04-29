@@ -28,7 +28,7 @@ class Notes extends Component {
                         layout={'raw'}
                     />
                 </div>
-                <div className={`floating-image circle3 lax `}>
+                <div data-aos={'fade-left'} className={`floating-image circle3 lax `}>
                     <Image
                         src={circle3}
                         width={215}
@@ -36,7 +36,7 @@ class Notes extends Component {
                         layout={'raw'}
                     />
                 </div>
-                <div className={`floating-image dot lax lax_preset_spin:3000:415`}>
+                <div data-aos={'fade-down'}  className={`floating-image dot`}>
                     <Image
                         src={dot}
                         width={217}
@@ -53,7 +53,7 @@ class Notes extends Component {
                         layout={'raw'}
                     />
                 </div>
-                <div className={`floating-image cross lax lax_preset_spin:3000:215 lax_preset_zigzag:170:200`}>
+                <div className={`floating-image cross lax  lax_preset_zigzag:970:200`}>
                     <Image
                         src={cross}
                         layout={'raw'}

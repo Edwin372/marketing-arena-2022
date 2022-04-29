@@ -86,6 +86,60 @@ span {
   100% {opacity:0;visibility: hidden ;}
 }
 
+@keyframes zoomIn {
+  0% {width: 383px; height: 383px}
+  100% {width: 433px; height: 433px}
+}
+
+@-moz-keyframes zoomIn {
+  0% {width: 383px; height: 383px}
+  100% {width: 433px; height: 433px}
+}
+
+@-webkit-keyframes zoomIn {
+  0% {width: 383px; height: 383px}
+  100% {width: 433px; height: 433px}
+}
+
+@-o-keyframes zoomIn {
+  0% {width: 383px; height: 383px}
+  100% {width: 433px; height: 433px}
+}
+
+@-ms-keyframes zoomIn {
+  0% {width: 383px; height: 383px}
+  100% {width: 433px; height: 433px}
+}
+
+@keyframes zoomIn {
+  0% {width: 383px; height: 383px}
+  100% {width: 433px; height: 433px}
+}
+
+@-moz-keyframes zoomOut {
+  0% {width: 433px; height: 433px}
+  100% {width: 383px; height: 383px}
+}
+
+@-webkit-keyframes zoomOut {
+  0% {width: 433px; height: 433px}
+  100% {width: 383px; height: 383px}
+}
+
+@-o-keyframes zoomOut {
+  0% {width: 433px; height: 433px}
+  100% {width: 383px; height: 383px}
+}
+
+@-ms-keyframes zoomOut {
+  0% {width: 433px; height: 433px}
+  100% {width: 383px; height: 383px}
+}
+@keyframes zoomOut {
+  0% {width: 433px; height: 433px}
+  100% {width: 383px; height: 383px}
+}
+
 .hidden {
   -webkit-animation: fadeOut 0.2s linear forwards;
   animation: fadeOut 0.2s linear forwards;
@@ -301,9 +355,11 @@ span {
   right: -300px !important;
 }
 .title{
- z-index: 3;
-  left: 100px !important;
-  top: 45.27px;
+  z-index: 3;
+  object-fit: contain;
+  left: 150px !important;
+  width: 35%;
+  top: 195.27px;
 }
 
 
@@ -410,25 +466,24 @@ span {
 .rule-board {
   object-fit: contain;
   width: 83%;
-  z-index: 10;
-  padding-top: 161px;
+  z-index: 14;
   padding-left: 198px;
 }
 
 .cloud8 {
-  z-index: 10;
-  bottom: 0px;
+  z-index: 100;
+  bottom: 267px;
 }
 .cloud9 {
-  z-index: 10;
+  z-index: 99;
   left: 114px;
-  top: 98px;
+  top: 385px;
 }
 
 .cloud10 {
-  z-index: 10;
-  right: 116px;
-  top: 145px;
+  z-index: 100;
+  right: 85px;
+  top: 424px;
 }
 
 .pilot {
@@ -440,13 +495,14 @@ span {
 }
 
 .cloud11 {
-  z-index: 100;
-  top: -50px;
-  left: 0px
+  object-fit: contain;
+  z-index: 9;
+  top: -80px;
 }
 
 .cloud12 {
-  z-index: 100;
+  object-fit: contain;
+  z-index: 9;
   bottom: -50px;
   left: 0px;
 }
@@ -560,6 +616,7 @@ span {
 }
 
 .round-structure-text {
+  z-index: 20;
   text-align: center;
   width: 72%;
 }
@@ -694,10 +751,19 @@ span {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+
 }
 
 .register-image {
   object-fit: fill;
+  -webkit-animation: zoomOut 0.2s linear forwards;
+  animation: zoomOut 0.2s linear forwards;
+}
+
+.register-image:hover {
+  -webkit-animation: zoomIn 0.2s linear forwards;
+  animation: zoomIn 0.2s linear forwards;
+
 }
 
 .counter {
@@ -707,8 +773,13 @@ span {
 }
 
 .time-value {
-  font-size: 24px;
+  font-size: 34px;
   font-weight: bold;
+  margin: 0px;
+}
+
+.time-unit {
+  font-size: 24px !important;
   margin: 0px;
 }
 
@@ -742,6 +813,7 @@ span {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .text-container {
@@ -810,6 +882,7 @@ span {
   text-align: justify;
   width: 40%;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 #partner {
@@ -931,3 +1004,23 @@ span {
 .loader-logo{
   object-fit: fill;
 }
+
+.event-btn {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF!important;
+  background: #FFCD01;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 100px;
+  box-shadow: 0px 2px 17px 2px rgb(0 0 0 / 30%) !important;
+  cursor: pointer;
+}
+
+.event-btn:hover {
+  text-decoration: none;
+}
+

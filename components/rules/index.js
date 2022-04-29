@@ -26,15 +26,11 @@ class Rules extends Component {
                     <Image
                         src={cloud11}
                         className={`floating-image cloud11`}
-                        width={2456}
-                        height={656}
                         layout={'raw'}
                     />
                     <Image
                         src={cloud11}
                         className={`floating-image cloud12`}
-                        width={2456}
-                        height={656}
                         layout={'raw'}
                     />
                     <Image
@@ -52,30 +48,27 @@ class Rules extends Component {
                         layout={"raw"}
                         priority={true}
                     />
-                    <div className={`floating-image cloud8`}>
                         <Image
+                            className={`floating-image cloud8`}
                             src={cloud8}
                             layout={"raw"}
                             width={1468}
                             height={443}
                         />
-                    </div>
-                    <div className={'floating-image cloud9'}>
                         <Image
+                            className={'floating-image cloud9'}
                             src={cloud9}
                             layout={"raw"}
                             width={516}
                             height={248}
                         />
-                    </div>
-                    <div className={'floating-image cloud10'} >
                         <Image
+                            className={'floating-image cloud10'}
                             src={cloud10}
                             layout={"raw"}
                             width={859}
                             height={269}
                         />
-                    </div>
                 </div>
                <div className={'rule-session'} id={'BTC-session'}>
                    <Image data-aos-duration="1000"
