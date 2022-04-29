@@ -30,22 +30,22 @@ export default function Home() {
 
     return (
 
-    <div className={styles.container}>
-        {loading
-            ?  <Loading/>
-            : null
-        }
-        <NavBar/>
-        <Landing/>
-        <About/>
-        <Round/>
-        <Award/>
-        <Notes/>
-        <Rules/>
-        <Register/>
-        <Event/>
-        <Partner/>
-        <Footer/>
-    </div>
+            <div id={`page ${loading ? 'loading' : ''}`} className={
+                styles.container
+            }>
+                <Loading loading={loading}/>
+                <NavBar/>
+                <Landing/>
+                <About/>
+                <Round/>
+                <Award/>
+                <Notes/>
+                <Rules/>
+                <Register/>
+                <Event/>
+                <Partner/>
+                <Footer/>
+            </div>
+
   )
 }
