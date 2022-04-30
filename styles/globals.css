@@ -1758,6 +1758,10 @@ span {
     margin-left: -18px;
     margin-bottom: 15px;
   }
+#BTC-rule {
+  padding-left: 100px;
+ object-fit: contain;
+ width: 55%;
 
   .machine {
     object-fit: contain;
@@ -4738,3 +4742,135 @@ span {
   }
 }
 
+.top-partners-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#partner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 1258px;
+}
+
+#partner-0 {
+  margin-right: 100px;
+}
+
+#partner-title {
+  object-fit: contain;
+  width: 30%;
+  margin-bottom: 100px;
+}
+
+#partner-content {
+  object-fit: contain;
+  width: 762px;
+}
+
+#partner-2 {
+  width: 1069px;
+  height: 165px;
+  object-fit: contain;
+  margin-top: 118px;
+}
+
+.diamond-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+#diamond-logo-1 {
+  width: 287px;
+  height: 70px;
+  object-fit: contain;
+  margin-right: 90px;
+  cursor: pointer;
+}
+
+#diamond-logo-2 {
+  width: 232px;
+  height: 70px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+#diamond-title {
+  width: 364px;
+  height: 41px;
+  object-fit: contain;
+  margin-top: 32px;
+}
+
+#golden-logo {
+  width: 274px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.golden-bronze-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.bronze-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 111px;
+}
+
+.bronze-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 345px;
+}
+
+#bronze-logo {
+  cursor: pointer;
+}
+
+#bronze-logo-1 {
+  width: 193px;
+  height: 37px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+#bronze-logo-2 {
+  width: 133px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+#bronze-logo-3 {
+  width: 102px;
+  height: 82px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+#bronze-logo-4{
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+#bronze-title {
+  width: 282px;
+  height: 32px;
+  object-fit: contain;
+  margin-top: 20px;
+}
