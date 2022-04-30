@@ -47,11 +47,9 @@ function Landing() {
                 <div className={`lax lax_preset_slideX:852:-250 floating-image plane`}>
                     <Image
                         src={plane}
-                        width={1344}
-                        height={486}
                         priority={true}
                         layout={"raw"}
-
+                        id={"plane"}
                     />
                 </div>
                 <Image

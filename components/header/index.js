@@ -24,6 +24,7 @@ class NavBar extends Component {
                         <HeaderButton  section={'partner'}text="ĐỐI TÁC"/>
                         <HeaderButton section={'footer'} text="LIÊN HỆ"/>
                     </ul>
+
                 </div>
             </header>
 

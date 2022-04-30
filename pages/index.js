@@ -33,7 +33,7 @@ export default function Home() {
             <div id={`page ${loading ? 'loading' : ''}`} className={
                 styles.container
             }>
-                <Loading loading={loading}/>
+                {/*<Loading loading={loading}/>*/}
                 <NavBar/>
                 <Landing/>
                 <About/>
