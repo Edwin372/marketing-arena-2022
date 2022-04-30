@@ -38,13 +38,13 @@ class Award extends Component {
                         layout={'raw'}
                     />
                     <Image
-                        data-aos-duration="1000" data-aos='fade-left'
+                        data-aos-duration="1000" data-aos='fade-right'
                         className={'floating-image circle4'}
                         src={circle4}
                         layout={'raw'}
                     />
                     <Image
-                        data-aos-duration="1000" data-aos='fade-right'
+                        data-aos-duration="1000" data-aos='fade-left'
                         className={'floating-image circle5'}
                         src={circle5}
                         layout={'raw'}
