@@ -14,7 +14,8 @@ import bronze4 from '../../public/images/bronzePartner4.png'
 import bronzeTitle from '../../public/images/bronzePartnerTitle.png'
 import partner1 from '../../public/images/partner1.png'
 import partner2 from '../../public/images/partner2.png'
-
+import media from '../../public/images/media.png'
+import accompany from '../../public/images/accompanyPartner.png'
 
 class Partner extends Component {
     state = {  }
@@ -69,10 +70,14 @@ class Partner extends Component {
                                    layout={'raw'}
                                    id={'bronze-logo-4'}/>
                         </div>
+
                         <Image src={bronzeTitle} layout={'raw'} id={'bronze-title'}/>
                     </div>
                 </div>
-                <Image src={partner2} layout={'raw'} id={'partner-2'}/>
+                <div className={'top-partners-container'}>
+                    <Image src={media} layout={'raw'} id={'media'}/>
+                    <Image src={accompany} layout={'raw'} id={'accompany'}/>
+                </div>
             </div>
         );
     }

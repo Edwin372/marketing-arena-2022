@@ -6,7 +6,7 @@ import cloud1 from '../../public/svg/cloud1.svg'
 import cloud2 from '../../public/svg/cloud2.svg'
 import cloud3 from '../../public/svg/cloud3.svg'
 import title from '../../public/svg/title.svg'
-import plane from '../../public/svg/plane.svg'
+import plane from '../../public/images/plane.png'
 
 function Landing() {
     useLax({

@@ -20,7 +20,7 @@ class Event extends Component {
                         <Image data-aos-duration="1000" data-aos={'fade-up'} src={informationDay} className={'information-day'} width={210} height={106} layout={'raw'}/>
                         <p data-aos-duration="1000" data-aos={'fade-up'} className={'text-size'} id={'info-text'}>Nhằm giúp những thí sinh nắm được thông tin chi tiết về cuộc thi cũng như hình thức thi trắc nghiệm Creatio sẽ tổ chức một buổi <span>Information Day</span> dưới hình thức online ngay sau khi bài phát động đăng ký tham gia . Với sự góp mặt của các chuyên gia đầu ngành dày dặn kinh nghiệm trong lĩnh vực Marketing, buổi <span>Information Day</span> hứa hẹn sẽ gửi đến các thí sinh những lời khuyên mang tính chuyên môn về cách tiếp cận với <span>ngành Marketing</span> nói chung và <span>ngành hàng của đề bài năm nay</span> nói riêng.
                         </p>
-                        <a href={'https://vlrl8wq6g5f.typeform.com/InfoDay-DANG-KI?typeform-source=l.facebook.com '} className={'event-btn'}>Đăng ký tham dự Information Day</a>
+                        <a href={'https://vlrl8wq6g5f.typeform.com/InfoDay-DANG-KI '} className={'event-btn'}>Đăng ký tham dự Information Day</a>
                     </div>
                     <Image data-aos-duration="1000" data-aos={'fade-left'} src={helmet} className={'helmet2'} width={508} height={474} layout={'raw'}/>
                 </div>
@@ -42,7 +42,7 @@ class Event extends Component {
                         Chung kết,... Tất cả đều là những trải nghiệm vô cùng đáng giá cho quá trình học hỏi và phát triển
                         bản thân của các Marketers tương lai.
                     </p>
-                    <a className={'event-btn'}>Đăng ký tham dự Gala Night</a>
+                    <a href={'https://vlrl8wq6g5f.typeform.com/GALA-DANG-KY'} className={'event-btn'}>Đăng ký tham dự Gala Night</a>
                 </div>
             </div>
         );

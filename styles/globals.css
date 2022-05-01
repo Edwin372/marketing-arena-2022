@@ -148,7 +148,15 @@ span {
   100% {width: 383px; height: 383px}
 }
 
+.mobile-header {
+  display: none !important;
+}
+
 .header {
+
+  display: none !important;
+  display: flex;
+  justify-content: space-between;
   position: fixed !important;
   z-index: 1000;
   height: 100px !important;
@@ -203,7 +211,7 @@ span {
 }
 
 .header-dropdown-item {
-  font-family: 'Be Vietnam Pro', sans-serif !important;
+  font-family: 'Be Vietnam Pro', `sans-serif !important;
   font-style: normal;
   font-weight: 600 !important;
   font-size: 16px;
@@ -352,7 +360,7 @@ span {
 .plane {
   width: 65%;
   z-index: 3;
-  top: 374px;
+  top: 174px;
   right: -300px !important;
 }
 
@@ -461,7 +469,7 @@ span {
 .cross {
   bottom: 20px;
 
-  left: 200px
+  left: 00px
 }
 
 .cloud-background {
@@ -721,8 +729,8 @@ span {
   object-fit: contain;
   position: absolute;
   z-index: 9;
-  top: 200px;
-  height: 3372px;
+  top: 154px;
+  height: 3742px;
 }
 
 #background {
@@ -1045,6 +1053,10 @@ span {
 
 @media (min-width: 1200px) {
   .header {
+
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center!important;
     position: fixed !important;
     z-index: 1000;
     height: 100px !important;
@@ -1246,10 +1258,10 @@ span {
   }
 
   .plane {
-    width: 65%;
+    width: 75%;
     z-index: 3;
-    top: 374px;
-    right: -300px !important;
+    top: 174px;
+    right: -366px !important;
   }
 
   .title {
@@ -1377,7 +1389,7 @@ span {
 
   .cloud8 {
     z-index: 100;
-    bottom: 267px;
+    bottom: 244px
   }
 
   .cloud9 {
@@ -1542,44 +1554,44 @@ span {
   }
 
   #r {
-    width: 34%;
+    width: 30%;
   }
 
   #r1 {
     margin-top: -100px;
-    width: 60%;
+    width: 50%;
   }
 
   #r2 {
     margin-top: -100px;
-    width: 46%;
+    width: 33%;
   }
 
   #r3 {
-    width: 35%;
+    width: 27%;
   }
 
 
   #r4 {
     margin-top: -100px;
-    width: 48%;
+    width: 34%;
   }
 
   #r5 {
-    width: 41%;
+    width: 32%;
   }
 
   #r6 {
     margin-top: -100px;
-    width: 45%;
+    width: 34%;
   }
 
   #r7 {
-    width: 43%;
+    width: 33%;
   }
 
   #r8 {
-    margin-top: -100px;
+    margin-top: -79px;
     width: 44%;
   }
 
@@ -1617,8 +1629,8 @@ span {
     object-fit: contain;
     position: absolute;
     z-index: 9;
-    top: 200px;
-    height: 3372px;
+    top: 154px;
+    height: 3742px;
   }
 
   #background {
@@ -1760,8 +1772,9 @@ span {
   }
 #BTC-rule {
   padding-left: 100px;
- object-fit: contain;
- width: 55%;
+  object-fit: contain;
+  width: 55%;
+}
 
   .machine {
     object-fit: contain;
@@ -1806,7 +1819,7 @@ span {
 
   #partner-title {
     object-fit: contain;
-    width: 30%;
+    width: 30% !important;
 
   }
 
@@ -1945,6 +1958,7 @@ span {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
   .header {
+    display: none !important;
     position: fixed !important;
     z-index: 1000;
     height: 100px !important;
@@ -2147,11 +2161,11 @@ span {
   }
 
   .plane {
-    width: 30%;
+    width: 83%;
+    -o-object-fit: contain;
     object-fit: contain;
     z-index: 3;
-    top: 374px;
-    right: 80px !important;
+    top: 103px;
   }
 
   .title {
@@ -2521,8 +2535,8 @@ span {
     object-fit: contain;
     position: absolute;
     z-index: 9;
-    top: 200px;
-    height: 3309px;
+    top: 154px;
+    height: 3742px;
   }
 
   #background {
@@ -2858,11 +2872,15 @@ span {
     text-decoration: none;
   }
 }
-
+#plane{
+  object-fit: contain;
+  width: 100%;
+}
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px)  {
   .header {
+    display: none;
     position: fixed !important;
     z-index: 1000;
     height: 100px !important;
@@ -3439,8 +3457,8 @@ span {
     object-fit: contain;
     position: absolute;
     z-index: 9;
-    top: 200px;
-    height: 3309px;
+    top: 154px;
+    height: 3742px;
   }
 
   #background {
@@ -3779,6 +3797,7 @@ span {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   .header {
+    display: none;
     position: fixed !important;
     z-index: 1000;
     height: 100px !important;
@@ -3982,7 +4001,7 @@ span {
     width: 100%;
     object-fit: contain;
     z-index: 3;
-    top: 374px;
+    top: 174px;
     right: -200px !important;
   }
 
@@ -3996,7 +4015,8 @@ span {
   }
 
   #plane{
-    width: 120%;
+    object-fit: contain;
+    width: 185% !important;
   }
 
   .about-content-container {
@@ -4057,29 +4077,30 @@ span {
   }
 
   .circle1 {
-    right: 75px;
-    bottom: 41px
+    right: 74px;
+    bottom: 526px;
   }
 
   .circle2 {
     transform-origin: 50% 50%;
-    left: -141px;
-    top: 0px;
+    left: -57px;
+    top: -194px;
   }
 
   .circle3 {
-    right: -30px;
-    top: 369px;
+    right: -53px;
+    top: 25px;
   }
 
   .dot {
-    right: -20px;
-    top: 339px;
+    right: -95px;
+    top: 120px;
   }
 
   .plane-engine {
-    right: 95px;
-    bottom: 0px;
+    /*display: none;*/
+    right: 85px;
+    bottom: 530px;
     z-index: 11;
   }
 
@@ -4096,9 +4117,8 @@ span {
   }
 
   .cross {
-    bottom: 20px;
-
-    left: 200px
+    bottom: 450px;
+    left: 200px;
   }
 
   .cloud-background {
@@ -4373,8 +4393,8 @@ span {
     object-fit: contain;
     position: absolute;
     z-index: 9;
-    top: 200px;
-    height: 3309px;
+    top: 154px;
+    height: 3742px;
   }
 
   #background {
@@ -4419,6 +4439,8 @@ span {
 
   .register-image {
     object-fit: fill;
+    width: 320px !important;
+    height: 320px !important;
     -webkit-animation: zoomOut 0.2s linear forwards;
     animation: zoomOut 0.2s linear forwards;
   }
@@ -4717,7 +4739,7 @@ span {
   }
 
   #circle1-image {
-    width: 30%;
+    width: 40%;
     object-fit: contain ;
   }
   #circle2-image {
@@ -4725,7 +4747,7 @@ span {
     object-fit: contain ;
   }
   #circle3-image {
-    width: 30%;
+    width: 40%;
     object-fit: contain ;
   }
   #dot-image {
@@ -4737,9 +4759,175 @@ span {
     object-fit: contain ;
   }
   #cross-image {
-    width: 30%;
-    object-fit: contain ;
+    width: 79%;
+    -o-object-fit: contain;
+    object-fit: contain;
   }
+
+  .top-partners-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  #partner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 1972px !important;
+  }
+
+  #partner-0 {
+    margin-right: 0px !important;
+    margin-bottom: 50px
+  }
+
+  #partner-title {
+    object-fit: contain;
+    width: 80%;
+    margin-bottom: 100px;
+    margin-top: 156px;
+  }
+
+  #partner-content {
+    object-fit: contain;
+    width: 762px;
+  }
+
+  #partner-2 {
+    width: 1069px;
+    height: 165px;
+    object-fit: contain;
+    margin-top: 118px;
+  }
+
+  .diamond-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px!important;
+  }
+
+  .diamond-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px !important;
+
+  }
+
+  #diamond-logo-1 {
+    width: 287px;
+    height: 70px;
+    object-fit: contain;
+    margin-right: 0px !important;
+    cursor: pointer;
+  }
+
+  #diamond-logo-2 {
+    width: 232px;
+    height: 70px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  #diamond-title {
+    width: 364px;
+    height: 41px;
+    object-fit: contain;
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+
+  #golden-logo {
+    width: 274px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  .golden-bronze-container {
+    display: flex;
+    flex-direction: column!important;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px !important;
+    margin-bottom: 50px;
+  }
+
+  .bronze-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 0px !important;
+  }
+
+  .bronze-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 345px;
+  }
+
+  #bronze-logo {
+    cursor: pointer;
+  }
+
+  #bronze-logo-1 {
+    width: 193px;
+    height: 37px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  #bronze-logo-2 {
+    width: 133px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  #bronze-logo-3 {
+    width: 102px;
+    height: 82px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  #bronze-logo-4{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  #bronze-title {
+    width: 282px;
+    height: 32px;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #media {
+    width: 383px;
+    object-fit: contain;
+    margin-right: 0px !important;
+  }
+
+  #accompany {
+    width: 382px !important;
+    object-fit: contain;
+  }
+
+
 }
 
 .top-partners-container {
@@ -4762,7 +4950,7 @@ span {
 
 #partner-title {
   object-fit: contain;
-  width: 30%;
+  width: 100%;
   margin-bottom: 100px;
 }
 
@@ -4873,4 +5061,19 @@ span {
   height: 32px;
   object-fit: contain;
   margin-top: 20px;
+}
+
+#media {
+  width: 383px;
+  object-fit: contain;
+  margin-right: 90px;
+}
+
+#accompany {
+  width: 432px;
+  object-fit: contain;
+}
+
+.mobile-header {
+
 }

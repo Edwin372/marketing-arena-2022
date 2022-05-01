@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/header'
+import MobileNavBar from "../components/mobileNavBar";
 import {useEffect, useState} from "react";
 import Landing from "../components/landing";
 import About from "../components/about";
@@ -19,21 +20,20 @@ export default function Home() {
     useEffect(() => {
         setTimeout(() => {
             setLoading(false);
-        }, 5000);
+        }, 3000);
     }, []);
     useEffect(() => {
         AOS.init();
         AOS.refresh();
     }, []);
 
-
-
     return (
 
             <div id={`page ${loading ? 'loading' : ''}`} className={
                 styles.container
             }>
-                {/*<Loading loading={loading}/>*/}
+                <Loading loading={loading}/>
+                <MobileNavBar/>
                 <NavBar/>
                 <Landing/>
                 <About/>
