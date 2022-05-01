@@ -15,7 +15,7 @@ class NavBar extends Component {
                         <IconButton iconPath={CreatioLogo} width={112} height={112}/>
                         <IconButton iconPath={Logo} width={93} height={79}/>
                     </div>
-                    <ul className="nav justify-content-end m-5">
+                    <ul className="nav justify-content-end ">
                         <HeaderButton section={'landing'} text="TRANG CHỦ"/>
                         <HeaderButton section={'about'} text="VỀ CHÚNG TÔI"/>
                         <DropDownButton text="MARKETING ARENA 2022"/>

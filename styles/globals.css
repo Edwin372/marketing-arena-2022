@@ -149,20 +149,17 @@ span {
 }
 
 .mobile-header {
-  display: none !important;
+  width: 100%;
+  z-index: 999;
+  position: fixed !important;
+  display: flex!important;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 .header {
 
   display: none !important;
-  display: flex;
-  justify-content: space-between;
-  position: fixed !important;
-  z-index: 1000;
-  height: 100px !important;
-  width: 100% !important;
-  padding: 0px !important;
-  box-shadow: 0px 4px 14px -3px rgba(0, 0, 0, 0.3) !important;
 }
 
 .header-container {
@@ -797,6 +794,10 @@ span {
   margin: 0px;
 }
 
+#navbarNavAltMarkup {
+  z-index: 9999;
+}
+
 .time-unit {
   font-size: 24px !important;
   margin: 0px;
@@ -1051,9 +1052,10 @@ span {
   text-decoration: none;
 }
 
-@media (min-width: 1200px) {
-  .header {
 
+
+@media (min-width: 1320px) {
+  .header {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center!important;
@@ -1061,7 +1063,7 @@ span {
     z-index: 1000;
     height: 100px !important;
     width: 100% !important;
-    padding: 0px !important;
+    padding-right: 50px !important;
     box-shadow: 0px 4px 14px -3px rgba(0, 0, 0, 0.3) !important;
   }
 
@@ -1923,7 +1925,7 @@ span {
     background: #FFCD01;
     width: 100%;
     height: 100%;
-    z-index: 2000;
+    z-index: 10000;
   }
 
   .loader-icon {
@@ -1952,6 +1954,11 @@ span {
   .event-btn:hover {
     text-decoration: none;
   }
+
+  .mobile-header {
+    display: none !important;
+  }
+
 }
 
 
@@ -2730,7 +2737,7 @@ span {
 
   #partner-title {
     object-fit: contain;
-    width: 60%;
+    width: 60% !important;
 
   }
 
@@ -3652,7 +3659,7 @@ span {
 
   #partner-title {
     object-fit: contain;
-    width: 60%;
+    width: 60% !important;
 
   }
 
@@ -3792,6 +3799,12 @@ span {
   .event-btn:hover {
     text-decoration: none;
   }
+  .mobile-header {
+    display: flex !important;
+
+  }
+
+
 }
 
 /* Landscape phones and down */
@@ -4592,7 +4605,7 @@ span {
 
   #partner-title {
     object-fit: contain;
-    width: 60%;
+    width: 60% !important;
 
   }
 
@@ -4790,7 +4803,7 @@ span {
 
   #partner-title {
     object-fit: contain;
-    width: 80%;
+    width: 80% !important;
     margin-bottom: 100px;
     margin-top: 156px;
   }
@@ -4926,6 +4939,9 @@ span {
     width: 382px !important;
     object-fit: contain;
   }
+  .mobile-header {
+
+  }
 
 
 }
@@ -4950,7 +4966,7 @@ span {
 
 #partner-title {
   object-fit: contain;
-  width: 100%;
+  width: 30%;
   margin-bottom: 100px;
 }
 
@@ -5074,6 +5090,3 @@ span {
   object-fit: contain;
 }
 
-.mobile-header {
-
-}
