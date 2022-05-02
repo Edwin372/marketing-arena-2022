@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import Image from 'next/image'
 import registerTitle from '../../public/images/registerTitle.png'
 import registerCloud from '../../public/images/registerCloud.png'
-import individualRegister from '../../public/images/individualRegister.png'
-import groupRegister from '../../public/images/groupRegister.png'
+import groupRegister from '../../public/images/registerBtn.png'
 import dynamic from "next/dynamic";
 const Counter = dynamic(
     () => import('./Counter.js'),

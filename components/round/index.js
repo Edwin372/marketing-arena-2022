@@ -38,7 +38,7 @@ class Round extends Component {
                 </p>
                 <div className={'round-structure'}>
                     <Image priority={true}  src={roundLine} layout={'raw'}  id={'line'}/>
-                    <Image src={background} layout={'raw'} id={'background'}  className={'floating-image'}/>
+                    {/*<Image src={background} layout={'raw'} id={'background'}  className={'floating-image'}/>*/}
                     <Image  priority={true} src={marketingArenaLogo} layout={'raw'} id={`logo`} className={'round-item'}/>
 
                     <Image data-aos-duration="1000" data-aos='fade-up' priority={true} src={roundItem} layout={'raw'} id={`r`} className={'round-item'}/>

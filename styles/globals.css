@@ -375,7 +375,7 @@ span {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 51px;
+  margin-top: 100px;
 }
 
 .about-content-picture {
@@ -727,7 +727,7 @@ span {
   position: absolute;
   z-index: 9;
   top: 154px;
-  height: 3742px;
+  height: 4242px;
 }
 
 #background {
@@ -1632,7 +1632,7 @@ span {
     position: absolute;
     z-index: 9;
     top: 154px;
-    height: 3742px;
+    height: 4242px;
   }
 
   #background {
@@ -3923,7 +3923,7 @@ span {
     overflow: hidden;
     width: 100%;
     margin-top: 100px;
-    height: 4086px !important;
+    height: 4486px !important;
   }
 
 
@@ -4314,6 +4314,7 @@ span {
     z-index: 20;
     text-align: center;
     width: 88%;
+      margin-top: 100px;
   }
 
   .round-structure {
@@ -4407,7 +4408,7 @@ span {
     position: absolute;
     z-index: 9;
     top: 154px;
-    height: 3742px;
+    height: 4042px;
   }
 
   #background {
