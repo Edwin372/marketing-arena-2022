@@ -22,19 +22,19 @@ const Counter = ({targetTime}) => {
         <>
             <div className="counter">
                 <div className={'time-container'}>
-                    <p className={'time-value'}>{days }</p>
+                    <p className={'time-value'}>{timeBetween > 0 ? days : 0 }</p>
                     <p className={'time-unit'}>ngày</p>
                 </div>
                 <div className={'time-container'}>
-                    <p className={'time-value'}>{hours }</p>
+                    <p className={'time-value'}>{timeBetween > 0 ? hours : 0 }</p>
                     <p className={'time-unit'}>giờ</p>
                 </div>
                 <div className={'time-container'}>
-                    <p className={'time-value'}>{minutes }</p>
+                    <p className={'time-value'}>{timeBetween > 0 ? minutes : 0 }</p>
                     <p className={'time-unit'}>phút</p>
                 </div>
                 <div className={'time-container'}>
-                    <p className={'time-value'}>{seconds}</p>
+                    <p className={'time-value'}>{timeBetween > 0 ? seconds : 0 }</p>
                     <p className={'time-unit'}>giây</p>
                 </div>
             </div>
