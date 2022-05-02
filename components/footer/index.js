@@ -12,8 +12,8 @@ class Footer extends Component {
                     <Image src={contactTitle} layout={'raw'} className={'contact-title'}/>
                     <p className={'footer-p'}><span>HOTLINE GIẢI ĐÁP THẮC MẮC VỀ:</span></p>
                     <p className={'footer-p'}>
-                        FORMAT, ĐỀ BÀI: 0369 772 729 (Ms. Ngoc Loan - Leader of SP Department) <br/>
-                        ĐĂNG KÝ DỰ THI: 0914 750 893  (Ms. Lan Anh - Leader of HR Department), <br/>
+                       <span> FORMAT, ĐỀ BÀI:</span> 0369 772 729 (Ms. Ngoc Loan - Leader of SP Department) <br/>
+                       <span> ĐĂNG KÝ DỰ THI:</span> 0914 750 893  (Ms. Lan Anh - Leader of HR Department), <br/>
                         0914 381 131 (Ms. Thuy Vi - Project Leader) <br/>
                     </p>
                     <p className={'footer-p'}><span>EMAIL: </span>marketingarena2022@gmail.com</p>
