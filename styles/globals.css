@@ -1833,7 +1833,7 @@ span {
   #BTC-rule {
     padding-left: 100px;
     object-fit: contain;
-    width: 59%;
+    width: 48%;
 
   }
 
@@ -1846,7 +1846,7 @@ span {
 
   #candidate-rule {
     object-fit: contain;
-    width: 59%;
+    width: 48%;
     margin-left: -80px;
   }
 
