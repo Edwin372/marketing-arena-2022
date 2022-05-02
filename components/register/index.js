@@ -12,6 +12,7 @@ class Register extends Component {
     state = {
         targetTime: new Date("May 13 2022 09:00:00 GMT+0700 (Indochina Time)").getTime()
     }
+
     render() { 
         return (
             <div id="register" className="session">
@@ -33,7 +34,13 @@ class Register extends Component {
                             <Image
                                 width={393}
                                 height={393}
-                                onClick={(e) => {location.href = 'https://vlrl8wq6g5f.typeform.com/MA22-DANG-KI';}}
+                                onClick={(e) => {
+                                    if (new Date().getTime() >= this.state.targetTime) {
+                                        location.href= '#'
+                                    }else {
+                                        location.href = 'https://vlrl8wq6g5f.typeform.com/MA22-DANG-KI';
+                                    }
+                                }}
                                 id={'group-register'}
                                 src={groupRegister}
                                 layout={'raw'}

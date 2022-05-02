@@ -388,6 +388,7 @@ span {
 #about-text {
   margin-bottom: 100px;
   width: 45%;
+  text-align: justify;
 }
 
 .helmet {
@@ -994,7 +995,7 @@ span {
 
 .footer-p {
   color: white;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .footer-a {
@@ -1293,6 +1294,7 @@ span {
   #about-text {
     margin-bottom: 100px;
     width: 45%;
+    text-align: justify;
   }
 
   .helmet {
@@ -1317,7 +1319,7 @@ span {
   .year {
     object-fit: contain;
     width: 30%;
-    bottom: -850px;
+    bottom: -800px;
 
   }
 
@@ -1897,7 +1899,7 @@ span {
 
   .footer-p {
     color: white;
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .footer-a {
