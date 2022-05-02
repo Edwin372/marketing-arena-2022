@@ -1173,7 +1173,7 @@ span {
     overflow: hidden;
     width: 100%;
     margin-top: 100px;
-    height: 4586px !important;
+    height:5086px !important;
   }
 
 
@@ -1870,10 +1870,10 @@ span {
     left: -200px;
     z-index: 0;
     background: black;
-    transform: rotate(-5deg);
+    transform: rotate(-4deg);
     width: 500%;
     height: 100%;
-    bottom: 50px;
+    bottom: 0px;
   }
 
   #footer-text {
@@ -1882,7 +1882,7 @@ span {
     align-items: flex-start;
     justify-content: center;
     z-index: 2;
-    padding: 50px;
+    padding: 15px;
     padding-left: 100px;
   }
 
