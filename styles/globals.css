@@ -4455,8 +4455,8 @@ span {
 
   .register-image {
     object-fit: fill;
-    width: 320px !important;
-    height: 320px !important;
+    width: 250px !important;
+    height: 250px !important;
     -webkit-animation: zoomOut 0.2s linear forwards;
     animation: zoomOut 0.2s linear forwards;
   }
@@ -4498,7 +4498,7 @@ span {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    height: 700px !important;
+    height: 900px !important;
   }
 
   #footer-content {
