@@ -13,6 +13,7 @@ import Event from "../components/event";
 import Partner from "../components/partners/partner";
 import Footer from "../components/footer";
 import Loading from "../components/loading"
+import Head from "next/head";
 import AOS from "aos";
 import "aos/dist/aos.css";
 export default function Home() {
@@ -32,6 +33,10 @@ export default function Home() {
             <div id={`page ${loading ? 'loading' : ''}`} className={
                 styles.container
             }>
+                <Head>
+                    <title>Marketing Arena 2022</title>
+                    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                </Head>
                 <Loading loading={loading}/>
                 <MobileNavBar/>
                 <NavBar/>
