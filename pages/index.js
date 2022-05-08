@@ -34,7 +34,7 @@ export default function Home() {
                 styles.container
             }>
                 <Head>
-                    <title>Marketing Arena 2022</title>
+                    <title>MARKETING ARENA 2022</title>
                     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 </Head>
                 <Loading loading={loading}/>
